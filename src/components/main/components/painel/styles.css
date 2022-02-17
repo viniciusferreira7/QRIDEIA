@@ -22,4 +22,5 @@ strong{
 
 .buttons{
   display: flex;
+  flex-direction: row;
 }

@@ -11,6 +11,8 @@ function Interface() {
       </p>
       <section className="buttons">
         <EventBtn />
+        <EventBtn />
+        <EventBtn />
       </section>
     </article>
   );

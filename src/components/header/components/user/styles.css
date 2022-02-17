@@ -1,0 +1,27 @@
+.userWrapper{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.userLogin{
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.userWrapper img{
+  cursor: pointer;
+}
+
+h4{
+  color: #686868;
+}
+
+.userLogin p{
+  text-decoration: underline;
+  text-decoration-color:#ee880f;
+  cursor: pointer;
+  font-size:0.8rem;
+  color: #ee880f;
+  margin-left: 30px;
+  font-weight: 500 !important;
+}

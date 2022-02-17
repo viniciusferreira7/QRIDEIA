@@ -1,5 +1,5 @@
 import React from 'react';
-import Interface from './components/interface';
+import Painel from './components/painel';
 
 import './styles.css';
 
@@ -8,7 +8,7 @@ function Main() {
     <main>
       <section className="background-orange"></section>
       <section className="background-gray"></section>
-      <Interface />
+      <Painel />
     </main>
   );
 }
