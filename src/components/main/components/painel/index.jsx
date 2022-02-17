@@ -1,5 +1,7 @@
 import React from 'react';
 import EventBtn from '../buttons/eventBtn';
+import ReportBtn from '../buttons/reportBtn';
+import UserBtn from '../buttons/userBtn';
 
 import './styles.css';
 
@@ -11,8 +13,8 @@ function Interface() {
       </p>
       <section className="buttons">
         <EventBtn />
-        <EventBtn />
-        <EventBtn />
+        <UserBtn />
+        <ReportBtn />
       </section>
     </article>
   );

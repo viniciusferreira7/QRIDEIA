@@ -1,14 +1,14 @@
-.eventBtn{
+.reportBtn{
   width:100% ;
   max-width: 278px;
   height: 250px;
-  padding: 80px 2% 15px;
+  padding: 70px 2% 15px;
   background-image: linear-gradient(to bottom,  #fefefe 10%, #ebebeb  90%);
-  border: 1px solid rgba(241, 240, 240, 0.6);
-  border-radius: 30px;
+  border: 1px solid rgba(231, 231, 231, 0.6);
+  border-radius: 25px;
 }
 
-.eventBtn p{
+.reportBtn p{
   margin-top: 37px;
   font-weight: bold;
   color: #494949;

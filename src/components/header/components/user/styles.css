@@ -18,10 +18,11 @@ h4{
 
 .userLogin p{
   text-decoration: underline;
-  text-decoration-color:#ee880f;
+  text-decoration-color:#ef9c3c;
   cursor: pointer;
   font-size:0.8rem;
-  color: #ee880f;
+  color: #ef9c3c;
   margin-left: 30px;
+  margin-top: 2px;
   font-weight: 500 !important;
 }

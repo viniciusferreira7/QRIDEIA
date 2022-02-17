@@ -1,14 +1,14 @@
-.eventBtn{
+.userBtn{
   width:100% ;
   max-width: 278px;
   height: 250px;
-  padding: 80px 2% 15px;
-  background-image: linear-gradient(to bottom,  #fefefe 10%, #ebebeb  90%);
+  padding: 65px 2% 15px;
+  background-image: linear-gradient(to bottom,  #fdfdfd, #ebebeb );
   border: 1px solid rgba(241, 240, 240, 0.6);
   border-radius: 30px;
 }
 
-.eventBtn p{
+.userBtn p{
   margin-top: 37px;
   font-weight: bold;
   color: #494949;
