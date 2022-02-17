@@ -1,0 +1,25 @@
+article{
+  width: 100%;
+  max-width: 1030px;
+  min-height: 85vh;
+  padding: 130px 3% 60px 3%;
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+}
+
+p{
+  font-weight: normal;
+}
+
+strong{
+  font-weight: bold;
+}
+
+.buttons{
+  display: flex;
+}

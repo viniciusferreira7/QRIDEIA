@@ -1,0 +1,6 @@
+.eventBtn{
+  width:100% ;
+  max-width: 300px;
+  padding: 20px 2%;
+  background-image: linear-gradient(180deg, 30%, #fefefe, #ececec );
+}
