@@ -6,6 +6,13 @@
   background-image: linear-gradient(to bottom,  #fefefe 10%, #ebebeb  90%);
   border: 1px solid rgba(231, 231, 231, 0.6);
   border-radius: 25px;
+  transition: all 3ms ease-in-out;
+  cursor: pointer;
+}
+
+.reportBtn:hover{
+  transform: scale(1.2);
+  z-index: 1;
 }
 
 .reportBtn p{
@@ -14,4 +21,73 @@
   color: #494949;
   font-size: 1.2rem;
   letter-spacing: 1px;
+}
+
+@media screen and (max-width:541px){
+  .reportBtn{
+    width:100% ;
+    max-width:200px;
+    height:150px;
+    padding: 11% 2% 15px;
+  }
+
+  .reportBtn img{
+    width:50px;
+    height: 40px;
+  }
+
+  .reportBtn p{
+    margin-top: 12px;
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width:415px){
+  .reportBtn{
+    width:100% ;
+    max-width:220px;
+    height:180px;
+    padding: 15% 2% 15px;
+  }
+
+  .reportBtn img{
+    width:60px;
+    height: 40px;
+  }
+
+  .reportBtn p{
+    margin-top: 20px;
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width:376px){
+  .reportBtn{
+    width:100% ;
+    max-width:150px;
+    height:120px;
+    padding: 9% 2% 15px;
+  }
+
+  .reportBtn img{
+    width:30px;
+    height: 30px;
+  }
+
+  .reportBtn p{
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+}
+
+
+@media screen and (max-width:361px){
+  .reportBtn{
+    max-width:150px;
+    height:140px;
+  }
+
+  .reportBtn p{
+    font-size: 1.1rem;
+  }
 }

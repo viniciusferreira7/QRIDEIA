@@ -3,7 +3,12 @@ nav{
   right: 20px;
 }
 
-nav a{
+nav .menuDesktop {
+  display: flex;
+  list-style: none;
+}
+
+nav .menuDesktop a{
   text-decoration:none;
   color: #8b8b8b;
   margin: 0 25px;
@@ -16,3 +21,10 @@ nav a{
   text-underline-offset: 10px;
   color: #393939;
 }
+
+@media screen and (max-width:921px){
+  .menuDesktop{
+    display: none !important;
+  }
+}
+

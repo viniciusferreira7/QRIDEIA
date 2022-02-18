@@ -6,6 +6,13 @@
   background-image: linear-gradient(to bottom,  #fefefe 10%, #ebebeb  90%);
   border: 1px solid rgba(241, 240, 240, 0.6);
   border-radius: 30px;
+  transition: all 3ms ease-in-out;
+  cursor: pointer;
+}
+
+.eventBtn:hover{
+  transform: scale(1.2);
+  z-index: 1;
 }
 
 .eventBtn p{
@@ -14,4 +21,71 @@
   color: #494949;
   font-size: 1.2rem;
   letter-spacing: 1px;
+}
+
+@media screen and (max-width:541px){
+  .eventBtn{
+    width:100% ;
+    max-width:200px;
+    height:150px;
+    padding: 14% 2% 15px;
+  }
+
+  .eventBtn img{
+    width:50px;
+    height: 30px;
+  }
+
+  .eventBtn p{
+    margin-top: 12px;
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width:415px){
+  .eventBtn{
+    max-width:220px;
+    height:180px;
+    padding: 15% 2% 15px;
+  }
+
+  .eventBtn img{
+    width:60px;
+    height: 40px;
+  }
+
+  .eventBtn p{
+    margin-top: 20px;
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width:376px){
+  .eventBtn{
+    width:100% ;
+    max-width:150px;
+    height:120px;
+    padding: 9% 2% 15px;
+  }
+
+  .eventBtn img{
+    width:50px;
+    height: 30px;
+  }
+
+  .eventBtn p{
+    margin-top: 12px;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width:361px){
+  .eventBtn{
+    max-width:150px;
+    height:140px;
+  }
+
+  .eventBtn p{
+    font-size: 1.1rem;
+  }
 }

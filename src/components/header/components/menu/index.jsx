@@ -5,18 +5,28 @@ import './styles.css';
 function Menu() {
   return (
     <nav>
-      <a href="#" target="_blank" rel="noopener noreferrer">
-        Home
-      </a>
-      <a href="#" target="_blank" rel="noopener noreferrer">
-        Eventos
-      </a>
-      <a href="#" target="_blank" rel="noopener noreferrer">
-        Usuários
-      </a>
-      <a href="#" target="_blank" rel="noopener noreferrer">
-        Relatórios
-      </a>
+      <ul className="menuDesktop">
+        <li>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            Eventos
+          </a>
+        </li>
+        <li>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            Usuários
+          </a>
+        </li>
+        <li>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            Relatórios
+          </a>
+        </li>
+      </ul>
     </nav>
   );
 }

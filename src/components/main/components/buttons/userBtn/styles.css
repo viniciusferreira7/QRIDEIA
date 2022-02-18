@@ -6,6 +6,13 @@
   background-image: linear-gradient(to bottom,  #fdfdfd, #ebebeb );
   border: 1px solid rgba(241, 240, 240, 0.6);
   border-radius: 30px;
+  transition: all 3ms ease-in-out;
+  cursor: pointer;
+}
+
+.userBtn:hover{
+  transform: scale(1.2);
+  z-index: 1;
 }
 
 .userBtn p{
@@ -14,4 +21,73 @@
   color: #494949;
   font-size: 1.2rem;
   letter-spacing: 1px;
+}
+
+@media screen and (max-width:541px){
+  .userBtn{
+    width:100% ;
+    max-width:200px;
+    height:150px;
+    padding: 11% 2% 15px;
+  }
+
+  .userBtn img{
+    width:50px;
+    height: 45px;
+  }
+
+  .userBtn p{
+    margin-top: 12px;
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width:415px){
+  .userBtn{
+    width:100% ;
+    max-width:220px;
+    height:180px;
+    padding: 15% 2% 15px;
+  }
+
+  .userBtn img{
+    width:60px;
+    height: 40px;
+  }
+
+  .userBtn p{
+    margin-top: 20px;
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width:376px){
+  .userBtn{
+    width:100% ;
+    max-width:150px;
+    height:120px;
+    padding: 9% 2% 15px;
+  }
+
+  .userBtn img{
+    width:30px;
+    height: 30px;
+  }
+
+  .userBtn p{
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+}
+
+
+@media screen and (max-width:361px){
+  .userBtn{
+    max-width:150px;
+    height:140px;
+  }
+
+  .userBtn p{
+    font-size: 1.1rem;
+  }
 }

@@ -1,5 +1,48 @@
 .container{
   width: 100%;
+  height: 100%;
   margin: 0 auto;
+}
+
+@media screen and (max-width:1281px){
+  .container{
+    height: 800px;
+  }
+}
+
+@media screen and (max-width:913px){
+  .container{
+    height: 1368px;
+  }
+}
+
+@media screen and (max-width:821px){
+  .container{
+    height: 1180px;
+  }
+}
+
+@media screen and (max-width:541px){
+  .container{
+    height: 720px;
+  }
+}
+
+@media screen and (max-width:415px){
+  .container{
+    height: 896px;
+  }
+}
+
+@media screen and (max-width:376px){
+  .container{
+    height: 668px;
+  }
+}
+
+@media screen and (max-width:361px){
+  .container{
+    height: 740px;
+  }
 }
 
