@@ -1,0 +1,78 @@
+h2{
+  color:#f08910;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+}
+
+input:not(input[type='button']){
+  width: 100%;
+  height: 35px;
+  border-radius: 20px;
+  padding: 0 8px;
+  margin-top: 10px;
+  border: 1px solid #f08910;
+  outline: none;
+  transition: all 3ms ease-in;
+}
+
+input:not(input[type='button']):hover{
+  transform: scale(1.08);
+  border:2px solid #9b5608 ;
+}
+
+input[type='button']{
+  margin-top: 20px;
+  width:120px;
+  height: 35px;
+  border-radius: 20px;
+  border:none ;
+  background-color: transparent;
+  color: #f08910;
+  border:1px solid #f08910;
+  cursor: pointer;
+}
+
+input[type='button']:hover{
+  background-color: #f08910;
+  color: #f1f1f1f1;
+  transition: all 4ms ease-out;
+}
+
+@media screen and (max-width:1281px){
+
+  input:not(input[type='button']){
+    width: 100%;
+    height: 55px;
+    border-radius: 20px;
+    padding: 0 8px;
+    margin-top: 20px;
+    border: 1px solid #f08910;
+    font-size: 1.2rem;
+  }
+
+  input[type='button']{
+    margin-top: 30px;
+    width:200px;
+    height: 50px;
+    border-radius: 25px;
+    color: #f08910;
+    border:2px solid #f08910;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width:913px){
+
+  input:not(input[type='button']){
+    height: 85px;
+    font-size: 1.6rem;
+  }
+
+  input[type='button']{
+    width:250px;
+    height: 70px;
+    border-radius: 30px;
+    font-size: 1.8rem;
+  }
+}

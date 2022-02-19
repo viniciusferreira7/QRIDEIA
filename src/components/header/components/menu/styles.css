@@ -12,11 +12,12 @@ nav .menuDesktop a{
   text-decoration:none;
   color: #8b8b8b;
   margin: 0 25px;
+
 }
 
-.active{
+nav .menuDesktop .active{
   text-decoration: underline;
-  text-decoration-color: #f19423;
+  text-decoration-color: #f19423 ;
   border-bottom: 3px solid transparent;
   text-underline-offset: 10px;
   color: #393939;
